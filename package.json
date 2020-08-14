@@ -1,0 +1,45 @@
+{
+  "name": "airtnd",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint .",
+    "reload": "adb shell input keyevent 82 && adb shell input keyevent 66 && adb shell input keyevent 66",
+    "devmenu": "adb shell input keyevent 82",
+    "debug": "adb shell input keyevent 82 && adb shell input keyevent 61 && adb shell input keyevent 66 && adb shell input keyevent 66"
+  },
+  "dependencies": {
+    "@react-native-community/masked-view": "^0.1.10",
+    "@react-native-community/picker": "^1.6.6",
+    "react": "16.8.6",
+    "react-native": "^0.63.2",
+    "react-native-gesture-handler": "^1.6.1",
+    "react-native-inappbrowser-reborn": "^3.4.0",
+    "react-native-linear-gradient": "^2.5.6",
+    "react-native-modal": "^11.5.6",
+    "react-native-modals": "^0.19.9",
+    "react-native-picker-select": "^8.0.0",
+    "react-native-reanimated": "^1.9.0",
+    "react-native-safe-area-context": "^3.0.6",
+    "react-native-screens": "^2.9.0",
+    "react-native-select-contact": "^1.5.0",
+    "react-native-webview": "^8.0.0",
+    "react-navigation": "^4.3.9",
+    "react-navigation-stack": "^2.7.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.3",
+    "@babel/runtime": "^7.10.3",
+    "@react-native-community/eslint-config": "^2.0.0",
+    "babel-jest": "^26.0.1",
+    "eslint": "^7.3.0",
+    "jest": "^26.0.1",
+    "metro-react-native-babel-preset": "^0.59.0",
+    "react-test-renderer": "16.8.6"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
